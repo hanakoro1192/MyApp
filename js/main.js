@@ -25,8 +25,8 @@
     }
 
     function compare(a,b,col,type){
-        _a = a.children[col].textContent;
-        _b = b.children[col].textContent;
+        _a = _a.children[col].textContent;
+        _b = _b.children[col].textContent;
         if(type === "number"){
         _a = _a * 1;
         _b = _b * 1;
